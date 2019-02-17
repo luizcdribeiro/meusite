@@ -1,0 +1,31 @@
+/*ADICIONAR AO CSS*/
+
+.js .js-accordion dd { /*esse dd significa o titulo aonde estara a descrição.*/
+  display: none;
+}
+
+.js-accordion dt::after{/*se refere ao conteudo, pode ser p tambem*/
+  contention:'//adicionar aqui setinha ou elemento que quiser para se referir ao item'
+  margin-left: 10px
+}
+
+.js-accordion dt.ativo::after{
+  content:'';/*seta para cima colar aqui*/
+}
+
+.js-accordion dd.ativo{
+  display:block;
+  animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown{
+  from{
+    opacity: 0
+
+  }
+  to{
+    opacity: 1;
+    max-height:200px
+
+  }
+}

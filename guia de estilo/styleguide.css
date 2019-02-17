@@ -1,0 +1,121 @@
+/* Cores */
+.primaria-1 {
+	background: #000000;
+}
+.primaria-2 {
+	background:#ffd880 ;
+}
+.primaria-3 {
+	background:#ffffff ;
+}
+.secundaria-1 {
+	background: #06B0FF;
+}
+.secundaria-2 {
+	background:#BC1AFF;
+}
+.secundaria-3 {
+	background: #3a3a3c;
+}
+/* Tipografia */
+.titulo-1 {
+	font-family: "Space Mono" ;
+	font-size: 3em;
+	line-height: ;
+	color: ;
+}
+.titulo-2 {
+	font-family: "Space Mono"  ;
+	font-size: 2.25em;
+	line-height: ;
+	color: ;
+}
+.corpo-1 p {
+	font-family: 'B612 Mono' ;
+	font-size: 1.125em;
+	line-height: ;
+	margin-bottom: ;
+	color: ;
+}
+.corpo-2 p {
+	font-family: 'B612 Mono';
+	font-size: 1em;
+	line-height: ;
+	margin-bottom: ;
+	color: ;
+}
+/* Botões e Links */
+.btn-primario a {
+	font-family: ;
+	font-size: ;
+	display: inline-block;
+	background: ;
+	color: ;
+	text-align: center;
+	padding: ;
+	border: ;
+}
+.btn-primario a:hover {
+	background: ;
+	color: ;
+}
+.btn-secundario a {
+	font-family: ;
+	font-size: ;
+	display: inline-block;
+	background: ;
+	color: ;
+	text-align: center;
+	padding: ;
+	border: ;
+}
+.btn-secundario a:hover {
+	background: ;
+	color: ;
+}
+.link a {
+	font-family: ;
+	color: ;
+}
+.link a:hover {
+	text-decoration: ;
+}
+/* Formulário */
+label {
+	display: block;
+	font-family: ;
+	margin-bottom: ;
+	color: ;
+}
+input, textarea {
+	font-family: ;
+	font-size: ;
+	padding: ;
+	background: ;
+	border: ;
+	margin-bottom: ;
+	width: ;
+	box-sizing: border-box;
+}
+textarea {
+	min-height: ;
+}
+input:focus, input:hover, textarea:focus, textarea:hover {
+	outline: ;
+	border-color: ;
+}
+button {
+	font-family: ;
+	font-size: ;
+	display: inline-block;
+	background: ;
+	color: ;
+	text-align: center;
+	padding: ;
+	border: ;
+	cursor: pointer;
+}
+button:hover {
+	background: ;
+	color: ;
+}

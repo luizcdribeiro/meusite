@@ -1,0 +1,189 @@
+
+
+/*
+  breakpoints
+	960
+	740
+
+*/
+
+
+/*Reset*/
+
+
+body, h1, h2, h3, p, ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h2, h3{
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    font-family: 'B612 Mono', monospace;
+    line-height: 22px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+body{
+	font-family: "Space Mono", serif;
+	color: #000000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+
+/* Menu */
+
+.menu {
+	background: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    margin: 0 auto;
+	padding: 5px 0;
+	z-index: 10;
+}
+
+
+.menu-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.menu-logo{
+	font-family: 'Cabin Sketch',cursive;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 10px;
+    padding: 10px;
+    color: #ffd880;
+}
+
+a.menu-logo:hover{
+    color: white;
+}
+
+.menu-nav{
+	float: right;
+	margin-right: 10px;	
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0
+
+}
+
+.menu-nav li{
+	display: inline-block;
+}
+
+.menu-nav a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+
+.menu-nav ul li a:hover{
+	color:#ffd880;
+
+}
+
+.menu-nav ul li a.menu_ativo {
+	color: #ffd880;
+}
+
+@media (max-width: 739px){
+	.menu{
+		text-align: center;
+		padding: 5px 0;
+        position: absolute;
+	}
+
+	a.menu-logo{
+		float: left;
+		margin: 0 0;
+        clear: both;
+	}
+
+	.menu-nav {
+		float: right;
+        box-sizing: border-box; 
+        
+	}
+
+}
+
+
+
+
+/*HABILIDADE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
